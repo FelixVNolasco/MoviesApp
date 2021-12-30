@@ -1,0 +1,39 @@
+.trendsHeader {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    .header {
+        font-size: $title;
+        color: $white;
+    }
+    .icon { 
+        color: $white;
+        width: 32px;
+        height: 32px;
+    }
+}
+
+.moviesCarrousel {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 450px;
+
+    .gridContainer {
+        display: flex;
+        flex-direction: row;
+    }
+    .arrow {
+        cursor: pointer;
+        height: 32px;
+        width: 32px;
+        color: $white;
+    }
+}
+
+.tags {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}

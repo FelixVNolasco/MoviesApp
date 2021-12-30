@@ -1,4 +1,5 @@
 import React from 'react';
+import { Trends } from './Trends';
 
 export const Home = () => {
     return (
@@ -24,6 +25,7 @@ export const Home = () => {
                     </div>
                 </div>
             </div>
+            <Trends />
         </>
     )
 }
