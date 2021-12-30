@@ -1,4 +1,6 @@
 import React from 'react';
+import { Movies } from './Movies';
+import { Footer } from './Shared/Footer';
 import { Trends } from './Trends';
 
 export const Home = () => {
@@ -26,6 +28,8 @@ export const Home = () => {
                 </div>
             </div>
             <Trends />
+            <Movies />
+            <Footer />
         </>
     )
 }

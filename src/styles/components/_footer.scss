@@ -1,0 +1,58 @@
+.footerSection {    
+    margin-top: 64px;
+    background-color: $purple;
+    color: $white;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    justify-items: center;
+    height: 400px;
+    align-items: center;
+
+    .socialSection {
+        display: flex;
+        flex-direction: column;
+
+        .titleApp {
+            display: flex;
+            flex-direction: row;        
+            justify-content: center;
+            align-items: center;
+
+            .icon {
+                margin-left: 32px;
+                height: 64px;
+                width: 64px;
+
+            }
+        }
+
+        h4 {
+            text-align: center;
+            margin-bottom: 32px;
+        }
+
+        .team {
+            display: flex;
+            flex-direction: row;
+            
+            .teamMember {
+                display: flex;
+                flex-direction: row;
+                margin-right: 32px;
+                .imgTeamMember {
+                    width: 64px;
+                    border-radius: 50%;
+                    height: 64px;
+                    background-color: $light-gray;
+                    margin-right: 16px;
+                }
+                .infoMember {
+                    display: flex;
+                    flex-direction: column;
+                }
+            }
+
+        }
+
+    }
+}

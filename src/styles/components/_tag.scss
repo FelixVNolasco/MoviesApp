@@ -1,12 +1,16 @@
 .tag {
+    cursor: pointer;
     display: flex;
     align-items: center;
     justify-content: center;
     border-radius: 20px;
     background-color: #A64942;
-    
     .tagText {
         font-size: $normal;
-        padding: 4px;        
+        padding-top: 4px;
+        padding-bottom: 4px;
+        padding-left: 12px;
+        padding-right: 12px;
     }
+    
 }

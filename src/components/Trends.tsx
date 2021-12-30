@@ -12,16 +12,17 @@ export const Trends = () => {
                         <h2 className='header'>Trends Now!</h2>
                         <FaPollH className='icon' />
                     </div>
+
                     <div className='moviesCarrousel'>
-                        <FaChevronLeft className='arrow' />
-
-                        <Card />
-                        <Card />
-                        <Card />
-                        <Card />
-                        <Card />
-                        <Card />
-
+                    <FaChevronLeft className='arrow' />
+                        <div className='moviesTrends'>
+                            <Card />
+                            <Card />
+                            <Card />
+                            <Card />
+                            <Card />
+                            <Card />
+                        </div>                    
                         <FaChevronRight className='arrow' />
                     </div>
                     <div className='tags'>
