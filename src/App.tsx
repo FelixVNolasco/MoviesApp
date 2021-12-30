@@ -7,12 +7,14 @@ import { Navbar } from './components/Shared/Navbar'
 function App() {
   return (
     <>
-    <Navbar></Navbar>
-      <h1>Welcome to React Router!</h1>
-      <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="about" element={<About />} />
-      </Routes>
+      <div className='backgroundImage'>
+        <Navbar></Navbar>
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="about" element={<About />} />
+        </Routes>
+      </div>
+
     </>
   );
 }

@@ -1,0 +1,57 @@
+
+.backgroundImage {
+    width: 80vw;
+    margin: auto;
+    // background-image: url('../../assets/spider-man-no-way-home-2543495.jpg');    
+    object-fit: fill;
+    background-repeat:unset;
+    // background-color: rgba($color: $dark-gray, $alpha: 0.4);
+    height: 600px;
+}
+.info {
+    background-color: rgba($color: $dark-gray, $alpha: 0.8);
+    display: flex;
+    flex-direction: column;
+    // background-color: darken($color: $dark-gray, $amount: 5);
+    height: 400px;
+    margin-top: 64px;
+    justify-content: center;
+
+    .movie {
+        .genres {
+            display: flex;
+            flex-direction: row;
+            color: $danger;
+            font-weight: 600;
+            width: 50%;
+            margin-left: 16px;
+            font-size: $item;
+            color: $secondary;
+            .genre {
+                margin-left: 16px;
+            }
+        }
+        .title {
+            font-size: $large-title;
+            line-height: 102px;
+            color: $white;
+            margin-left: 32px;
+        }
+        .infoMovie {
+            display: flex;
+            flex-direction: row;
+            width: 50%;            
+            color: $white;
+            margin-left: 16px;
+            .infoItem {
+                margin-left: 16px;
+            }
+        }
+        .caption {
+            color: $white;
+            margin-top: 32px;
+            margin-left: 32px;
+        }
+    }
+
+}
