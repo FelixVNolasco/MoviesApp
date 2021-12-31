@@ -2,6 +2,7 @@ import React from 'react';
 import { Movies } from './Movies';
 import { Footer } from './Shared/Footer';
 import { Trends } from './Trends';
+import { FaCircle } from 'react-icons/fa';
 
 export const Home = () => {
     return (
@@ -24,6 +25,12 @@ export const Home = () => {
                         <div className='caption'>
                             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque, mollitia.</p>
                         </div>
+                    </div>
+
+                    <div className='slidePosition'>
+                        <FaCircle className='dot selected' />
+                        <FaCircle className='dot' />
+                        <FaCircle className='dot' />
                     </div>
                 </div>
             </div>

@@ -7,13 +7,13 @@ import { Navbar } from './components/Shared/Navbar'
 function App() {
   return (
     <>
-      <div className='backgroundImage'>
+      
         <Navbar></Navbar>
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="about" element={<About />} />
         </Routes>
-      </div>
+      
 
     </>
   );

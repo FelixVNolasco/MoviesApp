@@ -14,7 +14,7 @@ export const Trends = () => {
                     </div>
 
                     <div className='moviesCarrousel'>
-                    <FaChevronLeft className='arrow' />
+                        <FaChevronLeft className='arrow' />
                         <div className='moviesTrends'>
                             <Card />
                             <Card />
@@ -22,17 +22,28 @@ export const Trends = () => {
                             <Card />
                             <Card />
                             <Card />
-                        </div>                    
+                        </div>
                         <FaChevronRight className='arrow' />
                     </div>
-                    <div className='tags'>
-                        <Tag />
-                        <Tag />
-                        <Tag />
-                        <Tag />
-                        <Tag />
-                        <Tag />
+                    <div className='tagsSection'>
+                        <FaChevronLeft className='arrow' />
+                        <div className='tags'>
+                            <Tag />
+                            <Tag />
+                            <Tag />
+                            <Tag />
+                            <Tag />
+                            <Tag />
+                            <Tag />
+                            <Tag />
+                            <Tag />
+                            <Tag />
+                            <Tag />
+                            <Tag />                    
+                        </div>
+                        <FaChevronRight className='arrow' />
                     </div>
+
                 </div>
             </div>
 

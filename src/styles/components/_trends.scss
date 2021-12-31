@@ -33,8 +33,19 @@
     }
 }
 
-.tags {
+.tagsSection {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    align-items: center;
+    color: $white;
+    .tags {
+        display: flex;
+        flex-direction: row;
+    }
+    .arrow {
+        cursor: pointer;
+        height: 24px;
+        width: 24px;
+    }
 }
